@@ -21,7 +21,6 @@ name = f"projects/499588621166/secrets/djago-app-secret-key/versions/1"
 response = client.access_secret_version(request={"name": name})
 
 secret = response.payload.data.decode("UTF-8")
-print(f"secret {secret}")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
