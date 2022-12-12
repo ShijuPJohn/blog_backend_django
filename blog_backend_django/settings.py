@@ -34,7 +34,7 @@ SECRET_KEY = secret
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "0.0.0.0", "blog-backend-django-p6kdpinvlq-uc.a.run.app'"]
+ALLOWED_HOSTS = ["127.0.0.1", "0.0.0.0","blog-backend-django-p6kdpinvlq-uc.a.run.app"]
 
 # Application definition
 
